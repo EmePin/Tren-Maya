@@ -1,0 +1,26 @@
+public class trenMaya
+{
+    public static void main(String[] args) {
+       double x, precio,costo,costoF;
+         Scanner sc=new Scanner(System.in);
+       
+       
+       
+         
+      System.out.println("Ingrese los kilométros que recorrió");
+      x=sc.nextDouble();
+      if(x>=0&& x<=10){
+        System.out.println("pague 150 varos plocs");
+        
+        }
+      else{
+          precio=((x-10)*12.5)+150;
+         
+          System.out.println("pague "+precio+" "+"varos plocs");
+        
+        }
+        
+   
+            
+    }
+}
